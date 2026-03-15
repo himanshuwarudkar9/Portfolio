@@ -6,6 +6,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    name: 'AI Equity Trader',
+    desc: 'Autonomous financial intelligence agent that performs real-time market sentiment analysis and technical indicator evaluation for equity trading.',
+    category: 'AI / FINANCE',
+    tech: ['Python', 'MCP', 'YFinance', 'Multi-Agent', 'LLM'],
+    year: '2026',
+    link: 'https://github.com/himanshuwarudkar9/AI-Equity-Trader',
+    gradient: 'linear-gradient(135deg, #064e3b 0%, #059669 50%, #2563eb 100%)',
+  },
+  {
     name: 'AutoGen Idea Agent',
     desc: 'Autonomous AI agent creator that leverages AutoGen framework for multi-agent orchestration and idea generation.',
     category: 'AGENTIC AI',
@@ -18,7 +27,7 @@ const projects = [
     name: 'Medical Chatbot',
     desc: 'AI-powered medical analysis chatbot with intelligent diagnostic capabilities and conversational health interface.',
     category: 'AI / HEALTHCARE',
-    tech: ['Python', 'NLP', 'Pinecone', 'ML'],
+    tech: ['Python', 'NLP', 'Pinecone', 'RAG', 'LLM'],
     year: '2025',
     link: 'https://github.com/himanshuwarudkar9/Medical_Chatbot',
     gradient: 'linear-gradient(135deg, #0f172a 0%, #dc2626 50%, #f97316 100%)',
@@ -41,42 +50,7 @@ const projects = [
     link: 'https://github.com/himanshuwarudkar9/TokyoOlympic-AzureProject',
     gradient: 'linear-gradient(135deg, #0f172a 0%, #0284c7 50%, #0891b2 100%)',
   },
-  {
-    name: 'AI Debate Crew',
-    desc: 'Multi-agent debate system where AI agents argue different perspectives using CrewAI framework.',
-    category: 'AGENTIC AI',
-    tech: ['CrewAI', 'Python', 'LLM', 'NLP'],
-    year: '2026',
-    link: 'https://github.com/himanshuwarudkar9/AI_Debate_Crew',
-    gradient: 'linear-gradient(135deg, #0f172a 0%, #e11d48 50%, #be185d 100%)',
-  },
-  {
-    name: 'AI Stock Picker',
-    desc: 'Intelligent stock analysis and recommendation system powered by multi-agent AI crew.',
-    category: 'AI / FINANCE',
-    tech: ['CrewAI', 'Python', 'Finance', 'LLM'],
-    year: '2026',
-    link: 'https://github.com/himanshuwarudkar9/AI_Stock_Picker_Crew',
-    gradient: 'linear-gradient(135deg, #0f172a 0%, #16a34a 50%, #0d9488 100%)',
-  },
-  {
-    name: 'AI Financial Researcher',
-    desc: 'Autonomous financial research crew that analyzes markets, reports, and generates investment insights.',
-    category: 'AI / FINANCE',
-    tech: ['CrewAI', 'Python', 'LLM', 'Research'],
-    year: '2026',
-    link: 'https://github.com/himanshuwarudkar9/AI_Financial_Researcher_Crew',
-    gradient: 'linear-gradient(135deg, #0f172a 0%, #ca8a04 50%, #ea580c 100%)',
-  },
-  {
-    name: 'Travel Agent AI',
-    desc: 'AI-powered travel planning assistant that creates personalized itineraries and recommendations.',
-    category: 'AGENTIC AI',
-    tech: ['Python', 'LLM', 'API', 'Agents'],
-    year: '2025',
-    link: 'https://github.com/himanshuwarudkar9/Travel-Agent',
-    gradient: 'linear-gradient(135deg, #0f172a 0%, #8b5cf6 50%, #d946ef 100%)',
-  },
+
 ];
 
 const ProjectCard = ({ project }) => (

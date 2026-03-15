@@ -6,28 +6,28 @@ gsap.registerPlugin(ScrollTrigger);
 
 const techCategories = [
   {
-    title: 'Programming & Analytics',
-    items: ['Python', 'SQL', 'Pandas', 'NumPy', 'Scikit-learn', 'SciPy'],
+    title: 'Core Programming & Data Ops',
+    items: ['Python', 'SQL', 'PySpark', 'Distributed Computing', 'Scikit-learn', 'SciPy'],
   },
   {
-    title: 'AI Agents & Intelligent Automation',
-    items: ['LLM Integrations', 'RAG Pipelines', 'MCP', 'CrewAI', 'AutoGen'],
+    title: 'Agentic AI & Orchestration',
+    items: ['Multi-Agent Systems', 'CrewAI/AutoGen', 'Langchain', 'LangGraph', 'MCP', 'RAG Pipelines'],
   },
   {
-    title: 'Data Visualization & BI',
-    items: ['Tableau', 'Seaborn', 'Plotly', 'Excel Pivot Tables'],
+    title: 'Generative AI & LLM Engineering',
+    items: ['Fine-tuning (LoRA)', 'Quantization', 'Prompt Engineering', 'LLM Evaluation', 'Vector DBs (Pinecone)'],
   },
   {
-    title: 'Machine Learning & AI',
-    items: ['Supervised ML', 'Unsupervised ML', 'Deep Learning', 'NLP', 'Computer Vision'],
+    title: 'Deep Learning & Vision',
+    items: ['Computer Vision (YOLOv11)', 'Vision Transformers', 'PyTorch/TensorFlow', 'Real-time Video Analytics'],
   },
   {
-    title: 'Databases & Cloud',
-    items: ['MySQL', 'PostgreSQL', 'SQL Server', 'Azure', 'Databricks'],
+    title: 'Cloud & Data Engineering',
+    items: ['Azure Databricks', 'Data Factory', 'PostgreSQL', 'Synapse Analytics', 'ETL Automation'],
   },
   {
     title: 'Tools & Platforms',
-    items: ['Git/GitHub', 'Jupyter', 'VS Code', 'Docker'],
+    items: ['Git/GitHub', 'Docker'],
   },
 ];
 
