@@ -17,7 +17,7 @@ export const ConnectSection = () => {
   }, []);
 
   return (
-    <section className="w-full bg-black py-16 md:py-24 px-6 overflow-hidden">
+    <section className="relative z-50 w-full bg-black py-16 md:py-24 px-6 overflow-hidden">
       <div ref={sectionRef} className="max-w-3xl mx-auto text-center">
         {/* Header */}
         <h2
@@ -58,6 +58,8 @@ export const ConnectSection = () => {
 
           <a
             href="mailto:himanshuwarudkar9@gmail.com"
+            target="_blank"
+            rel="noreferrer"
             className="group flex items-center gap-3 px-6 py-3 rounded-full border border-neutral-800 bg-neutral-950/50 hover:border-cyan-400/40 hover:bg-cyan-400/5 transition-all duration-300"
           >
             <svg className="w-5 h-5 text-white/50 group-hover:text-cyan-400 transition-colors" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
