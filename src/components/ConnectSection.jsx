@@ -21,10 +21,10 @@ export const ConnectSection = () => {
       <div ref={sectionRef} className="max-w-3xl mx-auto text-center">
         {/* Header */}
         <h2
-          className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight uppercase mb-4"
-          style={{ fontFamily: "'Clash Display', sans-serif", color: '#22d3ee' }}
+          className="text-3xl font-black tracking-tight uppercase mb-4 text-[#22d3ee]"
+          style={{ fontFamily: "'Syne', sans-serif" }}
         >
-          Have a project in your mind?<br />Let's Work together
+          Have a project in your mind?<br />Let's Work together.
         </h2>
         <p className="text-white/40 text-sm md:text-base mb-10 max-w-md mx-auto">
           Open to collaborations, freelance projects, and full-time opportunities in AI/ML engineering.

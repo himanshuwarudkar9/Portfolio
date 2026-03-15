@@ -52,9 +52,11 @@ export const TechArsenal = () => {
     <section className="w-full bg-black py-16 md:py-24 px-6 overflow-hidden">
       {/* Centered Header */}
       <div ref={titleRef} className="text-center mb-12 md:mb-16">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-4">
-          <span className="text-white">Skills & </span>
-          <span className="text-cyan-400" style={{ color: '#22d3ee' }}>Expertise</span>
+        <h2
+          className="text-3xl font-black tracking-tight uppercase mb-4 text-[#22d3ee]"
+          style={{ fontFamily: "'Syne', sans-serif" }}
+        >
+          Skills & Expertise
         </h2>
         <p className="text-neutral-400 text-sm md:text-base font-medium">
           Technologies I've worked with in real-world projects and professional environments

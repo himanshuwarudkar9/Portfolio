@@ -59,7 +59,7 @@ export const BentoGrid = () => {
             {/* Resume Button */}
             <div className="relative z-20 mt-4">
               <a 
-                href="/resume.pdf" 
+                href="/Himanshu-Warudkar_CV.pdf" 
                 download="Himanshu_Warudkar_Resume.pdf"
                 className="inline-flex items-center gap-2 bg-white text-black text-sm font-bold px-6 py-3 rounded-full hover:bg-neutral-200 transition-colors shadow-lg hover:shadow-cyan-500/20"
               >

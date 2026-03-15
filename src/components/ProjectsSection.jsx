@@ -182,8 +182,8 @@ export const ProjectsSection = () => {
         {/* 1. Header (Stays Pinned) */}
         <div className="text-center px-4 shrink-0 mb-8 md:mb-12">
           <h2
-            className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight uppercase"
-            style={{ fontFamily: "'Clash Display', sans-serif", color: '#22d3ee' }}
+            className="text-3xl font-black tracking-tight uppercase text-[#22d3ee]"
+            style={{ fontFamily: "'Syne', sans-serif" }}
           >
             Selected Works
           </h2>

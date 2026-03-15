@@ -226,8 +226,8 @@ export const ExperienceSection = () => {
       {/* Header */}
       <div ref={titleRef} className="text-center mb-12 px-4">
         <h2
-          className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight uppercase"
-          style={{ fontFamily: "'Syne', sans-serif", color: '#22d3ee' }}
+          className="text-3xl font-black tracking-tight uppercase text-[#22d3ee]"
+          style={{ fontFamily: "'Syne', sans-serif" }}
         >
           Experience
         </h2>

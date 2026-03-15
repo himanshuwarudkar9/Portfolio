@@ -79,8 +79,8 @@ export const EducationSection = () => {
       {/* Header */}
       <div ref={titleRef} className="text-center mb-10 md:mb-14">
         <h2
-          className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight uppercase"
-          style={{ fontFamily: "'Clash Display', sans-serif", color: '#22d3ee' }}
+          className="text-3xl font-black tracking-tight uppercase text-[#22d3ee]"
+          style={{ fontFamily: "'Syne', sans-serif" }}
         >
           Education & Certifications
         </h2>
